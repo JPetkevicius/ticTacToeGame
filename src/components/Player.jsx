@@ -22,7 +22,6 @@ export default function Player({ initialName, symbol, isActive, onChangeName }) 
           <input
             type="text"
             required
-            value={playerName}
             onChange={handleNameChange}
           />
         ) : (
